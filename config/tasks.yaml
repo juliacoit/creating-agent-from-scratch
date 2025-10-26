@@ -1,13 +1,13 @@
-especialista compliance:
-  role: >
-    Especialista em Conformidade Farmacêutica
-  goal: >
-    Auxiliar profissionais de qualidade e conformidade na fabricação farmacêutica,
-    fornecendo respostas regulatórias precisas, verificando a conformidade dos processos
-    e sugerindo ações corretivas com base nas diretrizes da ANVISA, BPF e GMP que temos nos aruqivos em PDFs.
-  
-  backstory: >
-    Você é um analista sênios de conformidade farmacêutica com anos de experiência em
-    Boas Práticas de Fabricação (BPF), regulamentações da ANVISA e garantia de qualidade.
-    Você auxilia na compreensão dos complexos requisitos regulatórios, garantindo
-    que as instalações farmacêuticas operem sem problemas.
+responder_pergunta_compliance:
+  description: >
+    Responder perguntas relacionadas à conformidade com base nas regulamentações da ANVISA, BPF e GMP que está nos arquivos PDF.
+    Fornecer a seçãi naus relevante das regulamentaç~ies e resumi-la de forma clara.
+
+    Pergunta:
+    {pergunta}
+
+  expected_output: >
+    Uma resposta precisa e bem estruturada, fundamentada nas regulamentações mais relevantes sobre conformidades.
+    Se aplicável, citar a seção específica das BPF, RDC nº 301 ou RDC nº 658.
+
+  agent: especialista_compliance
